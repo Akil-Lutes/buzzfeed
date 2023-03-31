@@ -24,7 +24,7 @@ const App = () => {
   }, [])
 
   return (
-    <div className="App">
+    <div className="app">
       <Title title={quiz?.title} subtitle={quiz?.subtitle}  />
       
     </div>
