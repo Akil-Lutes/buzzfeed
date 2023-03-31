@@ -18,14 +18,14 @@ const App = () => {
       console.log(err)
     }
   }
-
+// Runs until I get the data back
   useEffect(() => {
     fetchData()
   }, [])
 
   return (
     <div className="App">
-      <Title/>
+      <Title title={quiz?.title} subtitle={quiz?.subtitle}  />
       
     </div>
   )
