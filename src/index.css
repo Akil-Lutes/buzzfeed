@@ -23,3 +23,8 @@ h1 {
   line-height: 1.05;
   text-align: left;
 }
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.2;
+}

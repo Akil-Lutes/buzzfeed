@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-
 import Title from './components/Title'
+import QuestionsBlock from './comonents/QuestionsBlock'
 
 const App = () => {
   const [quiz, setQuiz] = useState(false)
@@ -25,8 +25,11 @@ const App = () => {
 
   return (
     <div className="app">
-      <Title title={quiz?.title} subtitle={quiz?.subtitle}  />
-      
+      <Title title={quiz?.title} subtitle={quiz?.subtitle} />
+       {/* If quiz exists, then get content and map each content item to the questions block */}
+      {quiz?.content.map(contentItem => (
+          <QuestionsBlock />
+        ))}
     </div>
   )
 }
