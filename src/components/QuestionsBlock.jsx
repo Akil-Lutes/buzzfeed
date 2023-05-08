@@ -1,5 +1,7 @@
 import QuestionBlock from './QuestionBlock'
 
+// Add manual index id's as key if question list will be filtered, changed, or reordered
+
 const QuestionsBlock = ({ quizItem }) => {
     console.log(quizItem)
     return (
