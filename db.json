@@ -10,7 +10,7 @@
           "questions": [
             {
               "text": "New York",
-              "image": "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+              "image": "NewYorkBuzzFeed.jpg",
               "alt": "Photo of Empire State building during daytime",
               "credit": "Oliver Niblett"
             },
